@@ -1,0 +1,33 @@
+# Data folders
+data/raw/
+data/processed/
+data/intermediate/
+
+# Large/data files
+*.csv
+*.xlsx
+*.xls
+*.rds
+*.RData
+*.tif
+*.tiff
+*.zip
+*.nc
+*.shp
+*.dbf
+*.shx
+*.prj
+
+# Allow example data if needed
+!data/example/*.csv
+
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+
+# Mac
+.DS_Store
+
+# Outputs
+outputs/
